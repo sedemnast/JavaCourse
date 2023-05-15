@@ -1,4 +1,4 @@
-package org.example;
+package org.example.HW4;
 
 import java.io.*;
 import java.util.*;
@@ -30,7 +30,7 @@ public class HW4 {
             System.out.println("\n\n2. Загрузить из файла многострочный текст формата ФИО возраст и пол через пробелы.");
             System.out.println("Разбить по строкам и вывести в консоль в формате \"Иванов И.И. 32 М\"\n");
 
-            List<String> lines = loadLinesFromFile("/Users/sedemnast/IdeaProjects/JavaCourse/src/main/java/org/example/text.txt");
+            List<String> lines = loadLinesFromFile("/Users/sedemnast/IdeaProjects/JavaCourse/src/main/java/org/example/HW4/text.txt");
 
             System.out.println("В файле написано:");
             for (String line : lines) {
